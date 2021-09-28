@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <script src="scrypt/validacion.js"></script>
+    <!--link de boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+    <img src="imagenes/muni.png" alt="">
+    
+       <h1>Evaluacion Practica </h1>
+    </header>
+        <div class="conteiner">
+
+            <div class="row">
+
+                <div class="login-center">
+                    <div>
+
+                        <form action="#" class="border p-3 form">
+                            <legend class="legend-login">ingresos de personal autorizado</legend>
+                            <label for="id_user">usuario</label>
+                            <input type="text" class="form-control" name="id_user" id="idUser" required placeholder="solo usuarios validos">
+                            <label for="id_pass"> contraseña</label>
+                            <input type="password" class="form-control" name="id_pass" id="idPass" required placeholder="solo contraseñas validas">
+                             <br> <br>
+                            <input type="button"  class="boton-login" value="ingresar" onclick="validar()" >
+
+
+                        </form>
+                    </div>    
+                </div>        
+            </div>    
+        </div>          
+
+    <!--pie de pagina-->
+   <footer  class="footer_muni"> 
+    <h4>copyright  municipalidad de Guatemala egoo-2021</h4>
+
+</footer>
+</body>
+</html>
